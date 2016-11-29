@@ -4,3 +4,4 @@ build.xml
 /web/bower_components/
 /web/node_modules/
 /.projectKnowledge/
+/dist/

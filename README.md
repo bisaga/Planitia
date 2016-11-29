@@ -38,4 +38,6 @@ http://bisaga.com/blog/
 
 
 #Polymer
-npm i Polymer
+npm i webcomponentsjs --save
+npm i Polymer --save 
+npm i npm-polymer-elements --save

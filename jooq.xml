@@ -36,6 +36,22 @@
            Excludes match before includes -->
       <excludes></excludes>
     </database>
+    <generate>
+      <!-- Generate POJOs in addition to Record classes for usage of the
+      ResultQuery.fetchInto(Class) API
+      Defaults to false -->
+      <pojos>true</pojos>    
+
+      <!-- Generate DAOs in addition to POJO classes
+      Defaults to false -->
+      <daos>true</daos>
+
+      <!-- Annotate POJOs and Records with JPA annotations for increased
+      compatibility and better integration with JPA/Hibernate, etc
+      Defaults to false -->
+      <jpaAnnotations>true</jpaAnnotations>      
+
+    </generate>
 
     <target>
       <!-- The destination package of your generated classes (within the destination directory) -->
@@ -45,5 +61,6 @@
       <directory>./src/java</directory>
       <encoding>UTF-8</encoding>
     </target>
+
   </generator>
 </configuration>
