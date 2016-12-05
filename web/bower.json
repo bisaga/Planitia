@@ -1,0 +1,27 @@
+{
+  "name": "planitia",
+  "homepage": "https://github.com/bisaga/planitia",
+  "description": "Planitia Application",
+  "main": "",
+  "authors": [
+    "Igor Babic"
+  ],
+  "license": "GPL 3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "app-layout": "PolymerElements/app-layout#^0.10.6",
+    "app-route": "PolymerElements/app-route#^0.9.3",
+    "polymer": "Polymer/polymer#^1.7.0",
+    "iron-selector": "PolymerElements/iron-selector#^1.5.2",
+    "iron-pages": "PolymerElements/iron-pages#^1.0.8",
+    "paper-icon-button": "PolymerElements/paper-icon-button#^1.1.4",
+    "iron-icon": "PolymerElements/iron-icon#^1.0.12",
+    "iron-iconset-svg": "PolymerElements/iron-iconset-svg#^1.1.0"
+  }
+}
