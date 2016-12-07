@@ -1,7 +1,4 @@
-build.xml
-/nbproject/
 /build/
-/web/bower_components/
-/web/node_modules/
-/.projectKnowledge/
+/src/main/webapp/bower_components/
 /dist/
+/target/
