@@ -26,10 +26,19 @@ Polymer({
     observers: [
         '_routePageChanged(routeData.page)'
     ],
+    
+    listeners: {
+        'requestChangeRoute': '_requestPageChanged'
+    },
+    
+    _requestPageChanged: function(e) {
+        this._routePageChanged(e.detail.route);
+    },
+    
     _routePageChanged: function (page) {
         if(page === "planitia")
             page = "";
-        
+        console.log(page);
         this.page = page || 'dashboard';
     },
     _pageChanged: function (page) {

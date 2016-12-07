@@ -71,10 +71,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <app-drawer-layout fullbleed>
             <app-drawer>
                 <app-toolbar>Menu</app-toolbar>
-                <iron-selector selected="[[page]]" attr-for-selected="name" 
+                <iron-selector selected="[[page]]" attr-for-selected="id" 
                                class="drawer-list" role="navigation">
-                    <a name="dashboard" href="/dashboard">Dashboard</a>
-                    <a name="task" href="/task">View Tasks</a>
+                    <a id="dashboard" href="/dashboard">Dashboard</a>
+                    <a id="task-view" href="/task-view">View Tasks</a>
                 </iron-selector>
             </app-drawer>
 
@@ -89,6 +89,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                             fallback-selection="page404" role="main">
                     <planitia-dashboard name="dashboard"></planitia-dashboard>
                     <planitia-task name="task" ></planitia-task>
+                    <planitia-task-view name="task-view" on-requestChangeRoute=""></planitia-task-view>
                     <planitia-page404 name="page404"></planitia-page404>
                 </iron-pages>
             </app-header-layout> 

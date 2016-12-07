@@ -1,0 +1,104 @@
+{
+    "elements": {
+        "a": {
+            "attributes": {
+                "href": {}
+            }
+        },
+        "paper-icon-button": {
+            "attributes": {
+                "drawer-toggle": {},
+                "icon": {}
+            }
+        },
+        "app-drawer": {},
+        "planitia-dashboard": {
+            "attributes": {
+                "name": {}
+            }
+        },
+        "app-header": {
+            "attributes": {
+                "effects": {},
+                "condenses": {},
+                "reveals": {}
+            }
+        },
+        "app-route": {
+            "attributes": {
+                "route": {},
+                "data": {},
+                "tail": {},
+                "pattern": {}
+            }
+        },
+        "app-drawer-layout": {
+            "attributes": {
+                "fullbleed": {}
+            }
+        },
+        "div": {
+            "attributes": {
+                "main-title": {}
+            }
+        },
+        "paper-button": {},
+        "planitia-home": {},
+        "app-toolbar": {},
+        "app-header-layout": {
+            "attributes": {
+                "has-scrolling-region": {}
+            }
+        },
+        "iron-pages": {
+            "attributes": {
+                "role": {},
+                "attr-for-selected": {},
+                "selected": {},
+                "fallback-selection": {}
+            }
+        },
+        "iron-icon": {},
+        "dom-module": {
+            "attributes": {
+                "id": {}
+            }
+        },
+        "app-location": {
+            "attributes": {
+                "route": {}
+            }
+        },
+        "iron-selector": {
+            "attributes": {
+                "role": {},
+                "attr-for-selected": {},
+                "class": {},
+                "selected": {}
+            }
+        },
+        "planitia-page404": {
+            "attributes": {
+                "name": {}
+            }
+        },
+        "planitia-task-view": {},
+        "paper-toolbar": {},
+        "planitia-task": {
+            "attributes": {
+                "name": {}
+            }
+        },
+        "span": {
+            "attributes": {
+                "class": {}
+            }
+        }
+    },
+    "attributes": {
+        "include": {
+            "context": "style"
+        },
+        "id": {}
+    }
+}

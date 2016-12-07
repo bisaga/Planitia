@@ -37,7 +37,8 @@ http://bisaga.com/blog/programming/prepare-javaeejavascript-development-environm
 http://bisaga.com/blog/
 
 
-#Polymer
-npm i webcomponentsjs --save
-npm i Polymer --save 
-npm i npm-polymer-elements --save
+#Polymer / Web components 
+You need to have npm and bower installed and then you can get all components defined 
+in bower.json file with this command:  
+$ bower update 
+
