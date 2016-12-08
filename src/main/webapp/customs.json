@@ -1,35 +1,13 @@
 {
     "elements": {
-        "a": {
-            "attributes": {
-                "href": {}
-            }
-        },
-        "paper-icon-button": {
-            "attributes": {
-                "drawer-toggle": {},
-                "icon": {}
-            }
-        },
+        "iron-iconset-svg": {},
         "app-drawer": {},
-        "planitia-dashboard": {
-            "attributes": {
-                "name": {}
-            }
-        },
+        "h1": {},
         "app-header": {
             "attributes": {
                 "effects": {},
                 "condenses": {},
                 "reveals": {}
-            }
-        },
-        "app-route": {
-            "attributes": {
-                "route": {},
-                "data": {},
-                "tail": {},
-                "pattern": {}
             }
         },
         "app-drawer-layout": {
@@ -42,7 +20,6 @@
                 "main-title": {}
             }
         },
-        "paper-button": {},
         "planitia-home": {},
         "app-toolbar": {},
         "app-header-layout": {
@@ -50,23 +27,10 @@
                 "has-scrolling-region": {}
             }
         },
-        "iron-pages": {
-            "attributes": {
-                "role": {},
-                "attr-for-selected": {},
-                "selected": {},
-                "fallback-selection": {}
-            }
-        },
         "iron-icon": {},
         "dom-module": {
             "attributes": {
                 "id": {}
-            }
-        },
-        "app-location": {
-            "attributes": {
-                "route": {}
             }
         },
         "iron-selector": {
@@ -83,6 +47,45 @@
             }
         },
         "planitia-task-view": {},
+        "a": {
+            "attributes": {
+                "href": {}
+            }
+        },
+        "paper-icon-button": {
+            "attributes": {
+                "drawer-toggle": {},
+                "icon": {}
+            }
+        },
+        "planitia-dashboard": {
+            "attributes": {
+                "name": {}
+            }
+        },
+        "app-route": {
+            "attributes": {
+                "route": {},
+                "data": {},
+                "tail": {},
+                "pattern": {}
+            }
+        },
+        "p": {},
+        "paper-button": {},
+        "iron-pages": {
+            "attributes": {
+                "role": {},
+                "attr-for-selected": {},
+                "selected": {},
+                "fallback-selection": {}
+            }
+        },
+        "app-location": {
+            "attributes": {
+                "route": {}
+            }
+        },
         "paper-toolbar": {},
         "planitia-task": {
             "attributes": {
