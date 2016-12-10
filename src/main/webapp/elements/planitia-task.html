@@ -25,13 +25,21 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 display: block;
                 padding: 10px;
             }
+            :card.task {
+            }
+            
         </style>
 
-        <div class="card">
-            <div class="circle">2</div>
+        <div class="card" >
             <h1>Tasks</h1>
-            <p>Enter new task</p>
+            <form class="task">
+                <paper-input name="code"></paper-input>
+                <paper-input name="summary"></paper-input>
+                <paper-input name="description"></paper-input>
+            </form>
         </div>        
+        
+        
         
     </template>
     <script src="../js/planitia-task.js"></script>
