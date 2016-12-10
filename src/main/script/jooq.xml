@@ -58,7 +58,7 @@
       <packageName>com.bisaga.planitia.generated</packageName>
 
       <!-- The destination directory of your generated classes. Using Maven directory layout here -->
-      <directory>./src/main/java</directory>
+      <directory>../java</directory>
       <encoding>UTF-8</encoding>
     </target>
 
